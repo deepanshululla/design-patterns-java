@@ -1,4 +1,4 @@
-######## Adapter Factory pattern
+## Adapter Factory pattern
 Structural design patterns deal with the relationships between the entities (such as classes and objects) of a system.
  
 A structural design pattern focuses on providing a simple way of composing objects for creating new functionality
@@ -16,7 +16,7 @@ between the two interfaces. This layer is called the Adapter.
 
 
 
-##### Use in Ecommerce and Data conversions
+### Use in Ecommerce and Data conversions
 E-commerce systems are known examples. Assume that we use an e-commerce system that contains a calculate_total(order) function. 
 The function calculates the total amount of an order, but only in Danish Kroner (DKK). 
 
@@ -31,14 +31,14 @@ but we cannot modify/extend it.
 The solution is to write a wrapper (also known as Adapter) that converts 
 the data from the given DKK format to the expected USD or EUR format
 
-###### Beyond data conversions
+#### Beyond data conversions
 
 The Adapter pattern is not useful only for data conversions. In general, if you want
 to use an interface that expects function_a() but you only have function_b(), you
 can use an Adapter to convert (adapt) function_b() to function_a().
 
 
-###### Use case
+#### Use case
 
 The Adapter pattern is used for making things work after they have been
 implemented. Usually one of the two incompatible interfaces

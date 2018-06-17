@@ -12,8 +12,10 @@ the 3 steps we follow are:
 2) pass them as parameters
 3) create a factory class.
 
+In the example both Circle and rectangle extend Shape(which is an abstract class).
 
-###### Memory and performance consideration
+
+#### Memory and performance consideration
 This happens because whenever we create a new object, extra memory needs 
 to be allocated. Although virtual memory provides us, theoretically, 
 with unlimited memory, the reality is different. 
@@ -42,6 +44,22 @@ The state-dependent, mutable (also known as extrinsic) data should not be
 part of Flyweight because this is information that cannot be shared since
 it differs per object. If Flyweight needs extrinsic data,
 they should be provided explicitly by the client code.
+
+#### Requirements
+
+The Gang Of Four (GoF) book lists the following requirements that need to be satisfied
+to effectively use the Flyweight Pattern:
+
+• The application needs to use a large number of objects.
+
+• There are so many objects that it's too expensive to store/render them. Once
+the mutable state is removed (because if it is required, it should be passed
+explicitly to Flyweight by the client code), many groups of distinct objects
+can be replaced by relatively few shared objects.
+
+• Object identity is not important for the application. We cannot rely on object
+identity because object sharing causes identity comparisons to fail (objects
+that appear different to the client code, end up having the same identity).
 
 
 #### Real Life software application
