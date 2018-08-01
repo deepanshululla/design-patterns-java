@@ -1,3 +1,7 @@
+### Single Responsibility principle
+
+![SRV](srv.png)
+
 1)	Employee is a POJO(plain old java object)
 
 2)	The EmployeeDAO(DAO stands for Data Access Object) is responsible for all operations for operations (saving and deleting eployees) on employees to  the db.
