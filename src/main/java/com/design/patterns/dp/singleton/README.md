@@ -1,9 +1,13 @@
+In this example
+
+![](Singleton.png)
 
 ##### To make a class singleton
 
 1) Make its constructor private so no other class can directly create an objetc for it.
 2) Declare a static method
 3) Declare a static member of the same class type in the class
+
  
  
 ##### Why in the code have we used the term “Lazy initialization”?

@@ -15,6 +15,8 @@ One doesn't need to know the separate details of mysql or oracle ..
 
 The factory class must have a static method.
 
+In this example
+![](Factory.png)
 
 #####
 In a Windows application, we may have different database users (e.g., one user uses Oracle and one may use

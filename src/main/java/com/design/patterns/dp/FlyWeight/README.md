@@ -45,6 +45,9 @@ part of Flyweight because this is information that cannot be shared since
 it differs per object. If Flyweight needs extrinsic data,
 they should be provided explicitly by the client code.
 
+In this example
+![](FlyWeight.png)
+
 #### Requirements
 
 The Gang Of Four (GoF) book lists the following requirements that need to be satisfied

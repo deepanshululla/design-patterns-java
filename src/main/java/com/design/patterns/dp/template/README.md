@@ -7,7 +7,7 @@ In our use case, So there is a parent abstract class which renders the data to t
 not overidden by child classes.There are 2 other methods(which are abstract) for reading and processing
  the data which are overridden by child classes.
  
-
+![](Template%20Method.png)
 
 ###### Use Case
 The Template design pattern focuses on eliminating code repetition. 

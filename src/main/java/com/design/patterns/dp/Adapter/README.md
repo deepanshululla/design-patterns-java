@@ -14,6 +14,8 @@ or because it is impractical.
 In such cases, we can write an extra layer that makes all the required modifications for enabling the communication
 between the two interfaces. This layer is called the Adapter.
 
+In this example
+![](Adapter.png)
 
 
 ### Use in Ecommerce and Data conversions

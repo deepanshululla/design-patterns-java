@@ -18,6 +18,10 @@ The invoker does not need to know any implementation details about the command.
 to execute them in order. This is useful, for instance, when implementing
 a multilevel undo command.
 
+In this example
+
+![](Command%20Pattern.png)
+
 ####Use cases
 Many developers use the undo example as the only use case of the Command
 pattern. The truth is that undo is the killer feature of the Command pattern.

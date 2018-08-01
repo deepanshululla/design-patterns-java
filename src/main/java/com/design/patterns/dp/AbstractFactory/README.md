@@ -3,6 +3,7 @@ It is just a factory of factory pattern.
 
 In this use case there is DB factory and XMl factory which save data of employees and epartments in Db
 and XMl respectively.
+![](Abstract%20Factory.png)
 
 Then there is an abstract fatory which is a factory to produce all the factory.
  
