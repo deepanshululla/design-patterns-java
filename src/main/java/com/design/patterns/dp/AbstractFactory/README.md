@@ -1,4 +1,4 @@
-##### Abstract factory
+## Abstract factory
 It is just a factory of factory pattern.
 
 In this use case there is DB factory and XMl factory which save data of employees and epartments in Db
@@ -8,7 +8,7 @@ and XMl respectively.
 Then there is an abstract fatory which is a factory to produce all the factory.
  
 
-######Use cases
+#### Use cases
 Since the Abstract Factory pattern is a generalization of the Factory Method pattern,
 it offers the same benefits: it makes tracking an object creation easier, it decouples
 an object creation from an object usage, and it gives us the potential to improve the

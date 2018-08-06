@@ -22,7 +22,7 @@ In this example
 
 ![](Command%20Pattern.png)
 
-####Use cases
+#### Use cases
 Many developers use the undo example as the only use case of the Command
 pattern. The truth is that undo is the killer feature of the Command pattern.
 However, the Command pattern can actually do much more :
