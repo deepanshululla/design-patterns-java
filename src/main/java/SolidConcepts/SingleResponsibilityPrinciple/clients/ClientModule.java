@@ -1,9 +1,9 @@
-package oodesign.SingleResponsibilityPrinciple.clients;
+package SolidConcepts.SingleResponsibilityPrinciple.clients;
 
-import oodesign.SingleResponsibilityPrinciple.domain.Employee;
-import oodesign.SingleResponsibilityPrinciple.domain.dao.EmployeeDAO;
-import oodesign.SingleResponsibilityPrinciple.reporting.EmployeeReportFormatter;
-import oodesign.SingleResponsibilityPrinciple.reporting.FormatType;
+import SolidConcepts.SingleResponsibilityPrinciple.domain.Employee;
+import SolidConcepts.SingleResponsibilityPrinciple.domain.dao.EmployeeDAO;
+import SolidConcepts.SingleResponsibilityPrinciple.reporting.EmployeeReportFormatter;
+import SolidConcepts.SingleResponsibilityPrinciple.reporting.FormatType;
 
 public class ClientModule {
     public static void main(String args[]) {

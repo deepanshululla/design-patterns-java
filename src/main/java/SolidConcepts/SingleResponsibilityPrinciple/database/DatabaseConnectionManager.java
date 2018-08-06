@@ -1,4 +1,4 @@
-package oodesign.SingleResponsibilityPrinciple.database;
+package SolidConcepts.SingleResponsibilityPrinciple.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

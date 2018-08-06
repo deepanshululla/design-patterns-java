@@ -1,4 +1,4 @@
-package oodesign.SingleResponsibilityPrinciple.reporting;
+package SolidConcepts.SingleResponsibilityPrinciple.reporting;
 
 public class ReportFormatter {
     String formattedOutput;

@@ -1,7 +1,7 @@
-package oodesign.SingleResponsibilityPrinciple.domain.dao;
+package SolidConcepts.SingleResponsibilityPrinciple.domain.dao;
 
-import oodesign.SingleResponsibilityPrinciple.database.DatabaseConnectionManager;
-import oodesign.SingleResponsibilityPrinciple.domain.Employee;
+import SolidConcepts.SingleResponsibilityPrinciple.database.DatabaseConnectionManager;
+import SolidConcepts.SingleResponsibilityPrinciple.domain.Employee;
 
 public class EmployeeDAO {
     DatabaseConnectionManager connectionManager;

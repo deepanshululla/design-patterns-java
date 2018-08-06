@@ -1,4 +1,4 @@
-package oodesign.SingleResponsibilityPrinciple.domain;
+package SolidConcepts.SingleResponsibilityPrinciple.domain;
 
 public class Employee {
     private int id;

@@ -1,7 +1,6 @@
-package oodesign.SingleResponsibilityPrinciple.reporting;
+package SolidConcepts.SingleResponsibilityPrinciple.reporting;
 
-import oodesign.SingleResponsibilityPrinciple.domain.Employee;
-import oodesign.SingleResponsibilityPrinciple.reporting.ReportFormatter;
+import SolidConcepts.SingleResponsibilityPrinciple.domain.Employee;
 
 public class EmployeeReportFormatter extends ReportFormatter{
 
