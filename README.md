@@ -13,15 +13,15 @@ All the SOLID design principle have been implmented
 
 where SOLID is an acronym where:-
 
-•	S stands for SRP (Single responsibility principle)
+•	[S stands for SRP (Single responsibility principle)](src/main/java/SolidConcepts/SingleResponsibilityPrinciple)
 
-•	O stands for OCP (Open closed principle)
+•	[O stands for OCP (Open closed principle)](src/main/java/SolidConcepts/OpenClosedPrinciple)
 
-•	L stands for LSP (Liskov substitution principle)
+•	[L stands for LSP (Liskov substitution principle)](src/main/java/SolidConcepts/LiskovSubstitutionPrinciple)
 
-•	I stand for ISP ( Interface segregation principle)
+•	[I stand for ISP ( Interface segregation principle)](src/main/java/SolidConcepts/InterfaceSegregrationPrinciple)
 
-•	D stands for DIP ( Dependency inversion principle)
+•	[D stands for DIP ( Dependency inversion principle)](src/main/java/SolidConcepts/DependencyInversion)
 
 ##### Design patterns
 Some of the design patterns implemented are
